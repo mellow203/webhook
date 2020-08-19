@@ -1,0 +1,14 @@
+server:
+    port: 8082
+
+aws :
+  access-key: AKIAIQYMYU5WP7RQGCVQ
+  secret-key: 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
+  regions: ap-northeast-2
+  sqs:
+    message-name: webhooking
+    api-gate-way: https://0oompmdg9b.execute-api.ap-northeast-2.amazonaws.com/stg/
+
+thread-pool:
+  service-size: 10
+  ep-size: 10
